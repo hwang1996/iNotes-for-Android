@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/camera"
+        android:title="camera"
+        app:showAsAction="always"
+        android:icon="@mipmap/camera"/>
+
+    <item
+        android:id="@+id/movie"
+        android:title="movie"
+        app:showAsAction="always"
+        android:icon="@mipmap/movie"/>
+
+    <item
+        android:id="@+id/clock0"
+        app:showAsAction="always"
+        android:title="提醒"
+        android:icon="@mipmap/clock"/>
+
+    <item
+        android:id="@+id/save"
+        android:title="保存"/>
+
+</menu>

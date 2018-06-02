@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.inotes.MainActivity"
+    android:background="#464545">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/neww"
+        android:id="@+id/image1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/test1"
+        android:id="@+id/image2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/image1"
+        android:layout_alignStart="@+id/image1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/footprints"
+        android:id="@+id/image3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/image2"
+        android:layout_alignStart="@+id/image2" />
+
+</RelativeLayout>
